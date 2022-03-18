@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <title>Student Restration Form </title>
+    <body>
+        <h1>student form</h1>
+        
+        <form action="hello.html">
+            <fieldset style="width: 300px;">
+                <legend >Student Registration Form</legend><br>
+            <label>Student Name</label>
+            <input type="text" required ><br>
+            <label>Address</label>
+        <textarea></textarea><br>
+        <label for="data" > Select City</label>
+        <input list="datas" name="data" id="data">
+        <datalist id="datas">
+            <option value="hyderabad" ></option>
+             <option  value="chennai">chennai</option>
+            <option value="banglore" >banglore</option>
+          <option value="delhi" >delhi</option>
+          <option value="noida">noida</option>
+          <option value="mumbai">mumbai</option>
+         </datalist><br>
+         <label>Email</label>
+         <input type="email" id="email" name="email" ><br>
+         <label>Number</label>
+         <input type="tel" id="phone" name="phone"  pattern="[0-9]{10}" autocomplete="off" required><br>
+         <label>Select Course</label>
+         <select>
+            <option value="none"></option>
+            <option >c</option>
+             <option >c++</option>
+            <option >python</option>
+          <option >java</option>
+          <option>java script</option>
+          <option>css</option>
+         </select><br>
+         <label for="birthday">Birthday:</label>
+         <input type="date" id="birthday" name="birthday"><br>
+         <label>Hobbies</label><br>
+         <input type="checkbox" id="hobbie1" name="hobbie1">
+         <label for="hobbie1">Reading Books</label><br>
+         <input type="checkbox" id="hobbie2" name="hobbie2">
+         <label for="hobbie2">Watching Movies</label><br>
+         <input type="checkbox" id="hobbie3" name="hobbie3">
+         <label for="hobbie3">Travelling</label><br>
+
+
+         <label>select the time slot for class</label><br>
+  <input type="radio" id="time1" name="time" value="12">
+  <label for="time1">10PM - 12PM</label><br>
+  <input type="radio" id="time2" name="time" value="2">
+  <label for="time2">1PM - 2PM</label><br>  
+  <input type="radio" id="time3" name="time" value="4">
+  <label for="time3">3PM - 4PM</label><br>
+  <input type="submit"/><br>
+            <input type="reset" />
+            </fieldset>
+
+  </form>
+         
+    
+    </body>
+</html>
